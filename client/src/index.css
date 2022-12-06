@@ -1,8 +1,8 @@
 :root {
-  --primary: #232F3E;
-  --secondary: #edb6c7;
-  --tertiary: #B12704;
-  --light: #fafafa;
+  --primary: #684f55;
+  --secondary: #ddc3cb;
+  --tertiary: #513831;
+  --light: #f5f3f1;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -16,16 +16,18 @@
 html,
 body {
   min-height: 100%;
+  background-color: #e7dec0;
 }
+
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'courier', sans-serif;
-  font-weight: 400;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 20px;
   color: var(--dark);
+  font-weight: 200;
 }
 
 h1,
@@ -36,16 +38,19 @@ h5,
 h6 {
   font-family: 'courier', sans-serif;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 10px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 3.25rem;
+  text-align: justify;
+
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-top: 10px;
 }
 
 h3 {
@@ -65,11 +70,13 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
-  margin-top: 0;
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bold;
 }
 
 a {
+  margin-top: 5%;
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
@@ -81,22 +88,25 @@ a:hover {
 
 header {
   background: var(--primary);
+  padding: .5px;
 }
 
 header a {
   color: var(--light);
+  
 }
 
 button {
   font-size: 1rem;
   text-decoration: none;
-  padding: 0.25rem 1rem;
+  padding: 1rem 1rem;
   border-radius: .5rem;
-  border: none;
+  
   outline: none;
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  font-weight: bold;
 }
 
 button:hover {
@@ -110,10 +120,15 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  width:  400px;
+  height: 400px;
+  object-fit: cover;
 }
+
 
 span[role="img"] {
   cursor: default;
+  
 }
 
 form {
@@ -155,13 +170,15 @@ input:focus {
 }
 
 .mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
 }
 
 .mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 50px;
+  font-size: 30px;
 }
 
 .my-1 {
@@ -172,6 +189,7 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  font-size: 30px;
 }
 
 .px-1 {
@@ -194,9 +212,14 @@ input:focus {
   padding-bottom: var(--spacing-two);
 }
 
+
 .card {
-  width: 25%;
+  width: 30%;
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(228, 216, 201);
 }
 
 .error-text {

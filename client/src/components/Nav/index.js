@@ -43,7 +43,9 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="cookie">🍪</span> Bolita Bakery
+  <img src="/images/logo.png" alt="" style={{   width:"80px",
+  height: "90px", paddingTop: "30px", }}/>Bolita Bakery
+ 
         </Link>
       </h1>
 
