@@ -66,8 +66,8 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Coming soon.',
-      // image: 'camera.jpg',
-      // price: 0,
+      image: 'camera.jpg',
+      price: 1.00,
       quantity: 0
     },
     {
@@ -75,8 +75,8 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'Coming soon.',
-      // image: 'tablet.jpg',
-      // price: 0,
+      image: 'tablet.jpg',
+      price: 1.00,
       quantity: 0
     },
     {
@@ -84,8 +84,8 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'Coming soon.',
-      // image: 'bedtime-book.jpg',
-      // price: 0,
+      image: 'bedtime-book.jpg',
+      price: 1.00,
       quantity: 0
     }
   ]);
