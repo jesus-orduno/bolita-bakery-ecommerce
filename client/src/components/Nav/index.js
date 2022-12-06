@@ -43,10 +43,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag"></span> Bolita Bakery
-          {/* <span role="img" aria-label="shopping bag"><img src="/images/logo192.jpg" alt="Logo" style="width:128px;height:128px;"></span> Bolita Bakery */}
-
-          {/* {<img src="/images/logo192.jpg" alt="Logo" style="width:128px;height:128px;">Bolita Bakery} */}
+          <span role="img" aria-label="cookie">🍪</span> Bolita Bakery
         </Link>
       </h1>
 
