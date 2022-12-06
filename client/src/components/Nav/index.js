@@ -44,7 +44,7 @@ function Nav() {
       <h1>
         <Link to="/">
   <img src="/images/logo.png" alt="" style={{   width:"80px",
-  height: "90px", paddingTop: "30px", }}/>Bolita Bakery
+  height: "90px", paddingTop: "10px", }}/>Bolita Bakery
  
         </Link>
       </h1>
