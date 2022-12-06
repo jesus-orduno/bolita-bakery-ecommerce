@@ -71,7 +71,7 @@ const Cart = () => {
     return (
       <div className="cart-closed" onClick={toggleCart}>
         <span role="img" aria-label="bag">
-        🛍️
+        🛒
         </span>
       </div>
     );
